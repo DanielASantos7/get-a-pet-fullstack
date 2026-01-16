@@ -1,0 +1,113 @@
+.pet_home_header {
+    margin-bottom: 2em;
+}
+
+.pet_home_header h1 {
+    margin-bottom: .3em;
+}
+
+.pet_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pet_card {
+    width: 22%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #16479D;
+    border-radius: 6px;
+    justify-content: space-between; 
+    height: auto;
+    padding-bottom: 20px;
+    transition: .5s;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.pet_card:hover {
+        box-shadow: 0px 0px 20px  5px rgba(23, 71, 157, .8);
+}
+
+.pet_card_image {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    width: 100%;
+    /* margin-bottom: 1.2em; */
+    border-bottom: 1px solid #16479D;
+    border-radius: 2px 2px 0 0;
+}
+
+.pet_card h3 {
+    color: #16479D;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.pet_card p {
+    margin-bottom: 2em;
+}
+
+.pet_card a {
+    text-decoration: none;
+    background-color: #FFD400;
+    color: #16479D;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.pet_card a:hover {
+    background-color: #e7c303;
+    color: #FFF ;
+}
+
+.adopted_text {
+    color: #25B456;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+
+/* PETS ADOTADOS */
+
+/* .adopted_card {
+    width: 22%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.adopted_card h3 {
+    color: #16479D;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+    padding: 8px;
+}
+
+.adopted_card p {
+    margin-bottom: 2em;
+} */
+
+
+.adopted_text {
+    text-decoration: none;
+    background-color: #25B456;
+    color: #16479D;
+    font-weight: bold;
+    cursor:default;
+    transition: .5s;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
